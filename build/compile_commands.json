@@ -1,0 +1,17 @@
+[
+{
+  "directory": "D:/TestTaskLesta/build",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/Tanks.dir/includes_CXX.rsp -g -o CMakeFiles\\Tanks.dir\\main.cpp.obj -c D:\\TestTaskLesta\\main.cpp",
+  "file": "D:/TestTaskLesta/main.cpp"
+},
+{
+  "directory": "D:/TestTaskLesta/build",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/Tanks.dir/includes_CXX.rsp -g -o CMakeFiles\\Tanks.dir\\classes\\Tank.cpp.obj -c D:\\TestTaskLesta\\classes\\Tank.cpp",
+  "file": "D:/TestTaskLesta/classes/Tank.cpp"
+},
+{
+  "directory": "D:/TestTaskLesta/build",
+  "command": "C:\\mingw64\\bin\\g++.exe  @CMakeFiles/Tanks.dir/includes_CXX.rsp -g -o CMakeFiles\\Tanks.dir\\classes\\Pellet.cpp.obj -c D:\\TestTaskLesta\\classes\\Pellet.cpp",
+  "file": "D:/TestTaskLesta/classes/Pellet.cpp"
+}
+]
