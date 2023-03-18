@@ -1,7 +1,7 @@
 cmake_minimum_required(VERSION 3.0.0)
 project(Tanks VERSION 0.1.0)
 
-set(SFML_DIR "C:/SFML/lib/cmake/SFML")
+set(SFML_DIR "/usr/lib/x86_64-linux-gnu/cmake/SFML/")
 find_package(SFML 2.5 COMPONENTS graphics window system REQUIRED)
 
 add_executable(Tanks main.cpp classes/Tank.cpp classes/Pellet.cpp)
