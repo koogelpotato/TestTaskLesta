@@ -7,7 +7,8 @@
 Tank::Tank(sf::RenderWindow& window, float xPos, float yPos, float speed, float rotation)
     : m_window(window), m_xPos(xPos), m_yPos(yPos), m_speed(speed), m_rotation(rotation)
 {
-    if (!m_texture.loadFromFile("tankFinal.png")) {
+    const std::string RESOURCE_PATH = "../resources/";
+    if (!m_texture.loadFromFile(RESOURCE_PATH + "tankFinal.png")) {
         std::cerr << "Error loading tank texture" << std::endl;
     }
 
